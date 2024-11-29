@@ -11,12 +11,8 @@
     "tailwindcss.worker.d.ts"
   ],
   "type": "module",
-  "workspaces": [
-    "examples/*"
-  ],
   "scripts": {
-    "prepack": "node build.js",
-    "start": "npm --workspace demo start"
+    "prepack": "node build.js"
   },
   "exports": {
     ".": "./index.js",
