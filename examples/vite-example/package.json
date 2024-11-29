@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "start": "vite",
+    "start:win": "vite",
     "build": "vite build"
   },
   "dependencies": {
     "monaco-editor": "^0.52.0",
     "monaco-tailwindcss": "file:../..",
-    "vite": "^4.0.0"
+    "vite": "^4.5.5"
   }
 }

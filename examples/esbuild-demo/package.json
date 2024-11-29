@@ -4,11 +4,12 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
-    "start": "rm -rf ./dist && node build.js"
+    "start": "rm -rf ./dist && node build.js",
+    "start:win": "if exist .\\dist (rmdir /s /q .\\dist) && node build.js"
   },
   "dependencies": {
     "monaco-editor": "^0.52.0",
     "monaco-tailwindcss": "file:../..",
-    "esbuild": "^0.21.0"
+    "esbuild": "^0.24.0"
   }
 }

@@ -12,7 +12,8 @@
   ],
   "type": "module",
   "scripts": {
-    "prepack": "node build.js"
+    "prepack": "node build.js",
+    "start:webpack-demo": "pnpm --filter examples/webpack-demo start"
   },
   "exports": {
     ".": "./index.js",

@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "webpack serve --mode development",
+    "start:win": "webpack serve --mode development --port 9000",
     "build": "webpack --mode production"
   },
   "dependencies": {
