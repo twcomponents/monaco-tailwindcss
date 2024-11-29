@@ -1,5 +1,8 @@
 # Monaco Tailwindcss
 
+> [!CAUTION]
+> This fork is a experimental version of the original monaco-tailwindcss package. It is not recommended to use this package in production.
+
 [![ci workflow](https://github.com/remcohaszing/monaco-tailwindcss/actions/workflows/ci.yaml/badge.svg)](https://github.com/remcohaszing/monaco-tailwindcss/actions/workflows/ci.yaml)
 [![npm version](https://img.shields.io/npm/v/monaco-tailwindcss)](https://www.npmjs.com/package/monaco-tailwindcss)
 [![prettier code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io)
@@ -11,14 +14,19 @@
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [API](#api)
-  - [`monaco-tailwindcss`](#monaco-tailwindcss-1)
-  - [`monaco-tailwindcss/tailwindcss.worker`](#monaco-tailwindcsstailwindcssworker)
-- [Related projects](#related-projects)
-- [Showcase](#showcase)
-- [License](#license)
+- [Monaco Tailwindcss](#monaco-tailwindcss)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [API](#api)
+    - [`monaco-tailwindcss`](#monaco-tailwindcss-1)
+      - [`configureMonacoTailwindcss(monaco, options?)`](#configuremonacotailwindcssmonaco-options)
+      - [`tailwindcssData`](#tailwindcssdata)
+    - [`monaco-tailwindcss/tailwindcss.worker`](#monaco-tailwindcsstailwindcssworker)
+      - [`initialize(options)`](#initializeoptions)
+  - [Related projects](#related-projects)
+  - [Showcase](#showcase)
+  - [License](#license)
 
 ## Installation
 
