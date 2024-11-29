@@ -2,23 +2,10 @@
   "name": "monaco-tailwindcss",
   "version": "0.6.1",
   "description": "Tailwindcss integration for Monaco editor",
-  "files": [
-    "index.js",
-    "index.js.map",
-    "index.d.ts",
-    "tailwindcss.worker.js",
-    "tailwindcss.worker.js.map",
-    "tailwindcss.worker.d.ts"
-  ],
   "type": "module",
   "scripts": {
     "prepack": "node build.js",
     "start:webpack-demo": "pnpm --filter examples/webpack-demo start"
-  },
-  "exports": {
-    ".": "./index.js",
-    "./tailwindcss.worker": "./tailwindcss.worker.js",
-    "./tailwindcss.worker.js": "./tailwindcss.worker.js"
   },
   "repository": "remcohaszing/monaco-tailwindcss",
   "keywords": [
@@ -79,5 +66,18 @@
     "@tailwindcss/language-service": {
       "postcss": "^8.4.49"
     }
+  },
+  "files": [
+    "index.js",
+    "index.js.map",
+    "index.d.ts",
+    "tailwindcss.worker.js",
+    "tailwindcss.worker.js.map",
+    "tailwindcss.worker.d.ts"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./tailwindcss.worker": "./tailwindcss.worker.js",
+    "./tailwindcss.worker.js": "./tailwindcss.worker.js"
   }
 }
